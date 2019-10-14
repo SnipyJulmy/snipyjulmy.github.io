@@ -1,0 +1,14 @@
+<footer id="footer">
+    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by 
+        <a href="http://jekyllrb.com">Jekyll</a>
+    </p>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#sidebar nav ul').mobileMenu({ 'topOptionText': 'Menu', 'prependTo': '#sidebar nav' });
+    });
+</script>
