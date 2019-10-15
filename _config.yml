@@ -7,7 +7,6 @@ baseurl: ""
 twitter_username: SylvainJulmy
 github_username:  SnipyJulmy
 
-permalink: /:year/:month/:day/:title/
 paginate: 10
 
 #theme: minima
