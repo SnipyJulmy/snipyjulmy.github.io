@@ -8,6 +8,7 @@ twitter_username: SylvainJulmy
 github_username:  SnipyJulmy
 
 paginate: 10
+paginate_path: "/page:num/"
 
 #theme: minima
 gems: [jekyll-paginate]
